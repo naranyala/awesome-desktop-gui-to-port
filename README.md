@@ -116,6 +116,18 @@ These areas broaden the catalog beyond the usual notes/editor/file-manager examp
 |---|---|---|
 | **Finance and personal accounting** | Reconciliation, transaction categorization, budgets, audit trails | CSV/OFX transaction importer with rules, review queue, and budget views |
 | **Maps, GIS, and navigation** | Layer controls, legends, coordinate search, measurement | Offline-friendly map annotation tool with layer toggles and imported GeoJSON |
+| **Email, feeds, and personal information management** | Inbox triage, message threading, feed subscriptions, calendar/task integration | Unified local dashboard for mail/feed metadata with saved searches and triage queue |
+| **E-commerce and product catalog management** | Faceted product search, comparison, image galleries, stock/pricing state | Product catalog browser with filters, comparison tray, and CSV import |
+| **Photography and asset management** | EXIF metadata, culling, ratings, contact sheets, color labels | Photo culling desk with fast thumbnail grid, ratings, and metadata inspector |
+| **Typography and font management** | Font preview, family grouping, specimen pages, activation state | Font library browser with searchable families and custom specimen canvas |
+| **Screen recording and live streaming** | Scene/source hierarchy, audio meters, recording state, transitions | Recording-session control panel or scene layout editor; media capture is a separate integration |
+| **Digital forensics and data recovery** | Case structure, evidence chain, scan progress, recoverable-file review | Read-only media image browser with hashes and audit log; avoid modifying evidence |
+| **Password, identity, and authentication management** | Vault organization, autofill trust, passkeys, recovery UX | Credential vault UI prototype; use reviewed standards/libraries and threat modeling |
+| **Language learning and translation** | Parallel text, lookup, spaced repetition, offline dictionaries | Vocabulary review app with spaced repetition and imported dictionaries |
+| **Travel planning and itinerary management** | Day-by-day timeline, map context, reservations, offline documents | Itinerary planner with timeline, attachments, and printable/exportable trip pack |
+| **Recipe and meal planning** | Ingredient scaling, timers, shopping lists, dietary filters | Recipe organizer that scales quantities and compiles a shopping list |
+| **Smartphone device management** | Device discovery, backup state, file browsing, update workflows | Local device inventory and photo/file import queue using supported protocols |
+| **Accessibility testing and UI inspection** | Tree inspection, contrast checks, keyboard traversal, audit reports | JavaFX accessibility inspector or contrast/keyboard audit companion tool |
 | **3D, CAD, and technical design** | Viewport navigation, object trees, property inspectors, constraints | 2D technical drawing or 3D model inspector before attempting a full CAD system |
 | **Home automation and IoT** | Device grouping, live state, automations, connection health | Dashboard for a documented Home Assistant API, with clear stale/offline states |
 | **Virtualization and remote machines** | VM lifecycle, snapshots, resource graphs, console access | Local VM inventory and status dashboard using an existing runtime API |
@@ -158,12 +170,22 @@ These areas broaden the catalog beyond the usual notes/editor/file-manager examp
 | Package management | [Synaptic](https://www.nongnu.org/synaptic/) · [Discover](https://apps.kde.org/discover/) · [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI) |
 | Music and DJ workflows | [Mixxx](https://mixxx.org/) · [LMMS](https://lmms.io/) · [rekordbox](https://rekordbox.com/) (free and paid plans) · [Ableton Live](https://www.ableton.com/live/) (commercial) |
 | Podcasts and audiobooks | [gPodder](https://gpodder.github.io/) · [AntennaPod](https://antennapod.org/) · [Audiobookshelf](https://www.audiobookshelf.org/) |
-| Automation and node editors | [Node-RED](https://nodered.org/) · [ n8n](https://n8n.io/) · [ComfyUI](https://github.com/comfyanonymous/ComfyUI) |
+| Automation and node editors | [Node-RED](https://nodered.org/) · [n8n](https://n8n.io/) · [ComfyUI](https://github.com/comfyanonymous/ComfyUI) |
 | Diagramming and whiteboards | [draw.io / diagrams.net](https://www.diagrams.net/) · [Excalidraw](https://excalidraw.com/) · [Miro](https://miro.com/) (commercial plans) · [Microsoft Visio](https://www.microsoft.com/microsoft-365/visio/flowchart-software) (commercial) |
 | POS and inventory | [Odoo](https://www.odoo.com/) · [uniCenta](https://unicenta.com/) · [Square Point of Sale](https://squareup.com/us/en/point-of-sale) (commercial/service-dependent) |
 | Scientific instruments | [LabPlot](https://labplot.kde.org/) · [KiCad](https://www.kicad.org/) · [LabVIEW](https://www.ni.com/en/shop/labview.html) (commercial) |
 | Games and mod management | [Lutris](https://lutris.net/) · [Heroic Games Launcher](https://heroicgameslauncher.com/) · [Mod Organizer 2](https://github.com/ModOrganizer2/modorganizer) |
 | Window/workspace management | [Microsoft PowerToys](https://learn.microsoft.com/windows/powertoys/) · [KDE KWin](https://invent.kde.org/plasma/kwin) · [Rectangle](https://rectangleapp.com/) (macOS; free and paid editions) |
+| Email and feeds | [Mozilla Thunderbird](https://www.thunderbird.net/) · [RSS Guard](https://github.com/martinrotter/rssguard) · [Mailspring](https://www.getmailspring.com/) |
+| E-commerce/catalogs | [Odoo](https://www.odoo.com/) · [Shopify POS](https://www.shopify.com/pos) (commercial) · [Snipe-IT](https://snipeitapp.com/) (asset inventory) |
+| Photography and assets | [digiKam](https://www.digikam.org/) · [Eagle](https://eagle.cool/) (commercial) · [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) (commercial) |
+| Fonts and typography | [FontBase](https://fontba.se/) · [NexusFont](https://www.xiles.app/) · [MainType](https://www.high-logic.com/font-manager/maintype) (commercial) |
+| Screen recording/streaming | [OBS Studio](https://obsproject.com/) · [Camtasia](https://www.techsmith.com/camtasia/) (commercial) · [ScreenFlow](https://www.telestream.net/screenflow/) (commercial, macOS) |
+| Device management | [KDE Connect](https://kdeconnect.kde.org/) · [LocalSend](https://localsend.org/) · [scrcpy](https://github.com/Genymobile/scrcpy) |
+| Language learning | [Anki](https://apps.ankiweb.net/) · [GoldenDict-ng](https://github.com/xiaoyifang/goldendict-ng) · [LingQ](https://www.lingq.com/) (service/app) |
+| Travel planning | [GPXSee](https://www.gpxsee.org/) · [Organic Maps](https://organicmaps.app/) · [TripIt](https://www.tripit.com/) (service/app) |
+| Recipes and meal planning | [Mealie](https://mealie.io/) · [Paprika](https://www.paprikaapp.com/) (commercial) · [Tandoor Recipes](https://tandoor.dev/) |
+| Backup and recovery utilities | [Rescuezilla](https://rescuezilla.com/) · [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) · [R-Studio](https://www.r-studio.com/) (commercial) |
 
 Links are starting points, not a verified license or maintenance audit. Some products are web-first, web-managed, platform-specific, or require separate services; check the official project information before choosing an inspiration target.
 
