@@ -115,6 +115,19 @@ These areas broaden the catalog beyond the usual notes/editor/file-manager examp
 | Category | Workflow/design patterns to study | JavaFX project seed |
 |---|---|---|
 | **Finance and personal accounting** | Reconciliation, transaction categorization, budgets, audit trails | CSV/OFX transaction importer with rules, review queue, and budget views |
+| **Legal and case management** | Matter timelines, document bundles, deadlines, permissions, audit trails | Local case notebook with deadline calendar, document index, and activity history |
+| **Healthcare and wellness** | Appointment flow, privacy-sensitive records, medication schedules | Personal appointment/health journal prototype; avoid clinical decision-making or real patient data |
+| **Architecture and construction** | Plans, layers, measurements, revisions, project coordination | Floor-plan annotation and measurement viewer with versioned markups |
+| **Logistics and supply chain** | Route planning, shipment states, warehouse picking, exception queues | Shipment tracking board or barcode-driven picking queue using sample data |
+| **Human resources and payroll** | Employee records, leave calendars, approvals, reporting | Leave-request calendar and approval inbox using synthetic data |
+| **Customer relationship management** | Contact timelines, pipeline stages, reminders, saved views | Small CRM with contact history, pipeline board, and follow-up queue |
+| **Desktop publishing and page layout** | Master pages, typography, preflight, print/export settings | Multi-page layout editor with guides, reusable styles, and PDF export |
+| **Presentation and slide authoring** | Slide hierarchy, speaker notes, presenter view, transitions | Slide sorter and presenter-notes tool with keyboard navigation |
+| **Animation and motion graphics** | Keyframes, curves, layers, playback, interpolation | 2D keyframe/tween editor with timeline and curve inspector |
+| **3D printing and fabrication** | Slicer previews, material/printer profiles, job queues | G-code preview and print-job organizer; device control is a separate scope |
+| **Robotics and embedded development** | Serial monitors, device consoles, firmware flashing, telemetry | Serial console with structured logs, command history, and simulated telemetry |
+| **Network administration** | Topology maps, device inventory, monitoring, configuration | Network inventory and status dashboard using read-only discovery data |
+| **Game development tools** | Scene hierarchy, asset browser, build profiles, debug console | Scene/asset browser or build-profile manager rather than a full game engine |
 | **Maps, GIS, and navigation** | Layer controls, legends, coordinate search, measurement | Offline-friendly map annotation tool with layer toggles and imported GeoJSON |
 | **Email, feeds, and personal information management** | Inbox triage, message threading, feed subscriptions, calendar/task integration | Unified local dashboard for mail/feed metadata with saved searches and triage queue |
 | **E-commerce and product catalog management** | Faceted product search, comparison, image galleries, stock/pricing state | Product catalog browser with filters, comparison tray, and CSV import |
@@ -155,6 +168,19 @@ These areas broaden the catalog beyond the usual notes/editor/file-manager examp
 | Category | Real desktop apps and project pages |
 |---|---|
 | Finance and accounting | [GnuCash](https://www.gnucash.org/) · [KMyMoney](https://kmymoney.org/) · [Moneydance](https://moneydance.com/) (commercial) |
+| Legal and case workflows | [OpenLaw](https://openlaw.io/) (project/status to verify) · [CaseFleet](https://www.casefleet.com/) (commercial) · [Clio](https://www.clio.com/) (commercial, cloud-focused) |
+| Healthcare and wellness | [GNU Health](https://www.gnuhealth.org/) · [OpenEMR](https://www.open-emr.org/) · [Epic](https://www.epic.com/) (commercial; enterprise reference) |
+| Architecture and construction | [FreeCAD](https://www.freecad.org/) · [Sweet Home 3D](https://www.sweethome3d.com/) · [Autodesk Revit](https://www.autodesk.com/products/revit/overview) (commercial) |
+| Logistics and supply chain | [OpenBoxes](https://openboxes.com/) · [Odoo Inventory](https://www.odoo.com/app/inventory) · [SAP Transportation Management](https://www.sap.com/products/scm/transportation-logistics.html) (commercial) |
+| HR and payroll | [OrangeHRM](https://www.orangehrm.com/) · [Odoo HR](https://www.odoo.com/app/employees) · [Workday](https://www.workday.com/) (commercial) |
+| CRM | [SuiteCRM](https://suitecrm.com/) · [EspoCRM](https://www.espocrm.com/) · [Salesforce](https://www.salesforce.com/) (commercial/service-focused) |
+| Desktop publishing | [Scribus](https://www.scribus.net/) · [Affinity Publisher](https://affinity.serif.com/publisher/) (commercial) · [Adobe InDesign](https://www.adobe.com/products/indesign.html) (commercial) |
+| Presentation | [LibreOffice Impress](https://www.libreoffice.org/discover/impress/) · [ONLYOFFICE Desktop Editors](https://www.onlyoffice.com/desktop.aspx) · [Microsoft PowerPoint](https://www.microsoft.com/microsoft-365/powerpoint) (commercial plans) |
+| Animation and motion graphics | [Synfig Studio](https://www.synfig.org/) · [OpenToonz](https://opentoonz.github.io/) · [Adobe After Effects](https://www.adobe.com/products/aftereffects.html) (commercial) |
+| 3D printing and fabrication | [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) · [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/) · [Bambu Studio](https://github.com/bambulab/BambuStudio) |
+| Robotics and embedded tools | [Arduino IDE](https://www.arduino.cc/en/software/) · [PlatformIO](https://platformio.org/) · [Saleae Logic](https://www.saleae.com/) (commercial hardware/software) |
+| Network administration | [Angry IP Scanner](https://angryip.org/) · [Nmap](https://nmap.org/) · [SolarWinds Network Performance Monitor](https://www.solarwinds.com/network-performance-monitor) (commercial) |
+| Game development | [Godot](https://godotengine.org/) · [Unity](https://unity.com/) · [Unreal Engine](https://www.unrealengine.com/) · [GameMaker](https://gamemaker.io/) (terms vary) |
 | Maps and GIS | [QGIS](https://qgis.org/) · [GRASS GIS](https://grass.osgeo.org/) · [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) (commercial) |
 | CAD and 3D design | [FreeCAD](https://www.freecad.org/) · [Blender](https://www.blender.org/) · [SketchUp](https://www.sketchup.com/) (free and paid plans) · [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/overview) (commercial) |
 | Home automation and IoT | [Home Assistant](https://www.home-assistant.io/) · [openHAB](https://www.openhab.org/) · [OpenRGB](https://openrgb.org/) |
@@ -177,6 +203,14 @@ These areas broaden the catalog beyond the usual notes/editor/file-manager examp
 | Games and mod management | [Lutris](https://lutris.net/) · [Heroic Games Launcher](https://heroicgameslauncher.com/) · [Mod Organizer 2](https://github.com/ModOrganizer2/modorganizer) |
 | Window/workspace management | [Microsoft PowerToys](https://learn.microsoft.com/windows/powertoys/) · [KDE KWin](https://invent.kde.org/plasma/kwin) · [Rectangle](https://rectangleapp.com/) (macOS; free and paid editions) |
 | Email and feeds | [Mozilla Thunderbird](https://www.thunderbird.net/) · [RSS Guard](https://github.com/martinrotter/rssguard) · [Mailspring](https://www.getmailspring.com/) |
+| Photography and assets | [digiKam](https://www.digikam.org/) · [Eagle](https://eagle.cool/) (commercial) · [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) (commercial) |
+| Fonts and typography | [FontBase](https://fontba.se/) · [NexusFont](https://www.xiles.app/) · [MainType](https://www.high-logic.com/font-manager/maintype) (commercial) |
+| Screen recording and streaming | [OBS Studio](https://obsproject.com/) · [Camtasia](https://www.techsmith.com/camtasia/) (commercial) · [ScreenFlow](https://www.telestream.net/screenflow/) (commercial, macOS) |
+| Device management | [KDE Connect](https://kdeconnect.kde.org/) · [LocalSend](https://localsend.org/) · [scrcpy](https://github.com/Genymobile/scrcpy) |
+| Language learning | [Anki](https://apps.ankiweb.net/) · [GoldenDict-ng](https://github.com/xiaoyifang/goldendict-ng) · [LingQ](https://www.lingq.com/) |
+| Travel planning | [GPXSee](https://www.gpxsee.org/) · [Organic Maps](https://organicmaps.app/) · [TripIt](https://www.tripit.com/) |
+| Recipes and meal planning | [Mealie](https://mealie.io/) · [Paprika](https://www.paprikaapp.com/) (commercial) · [Tandoor Recipes](https://tandoor.dev/) |
+| Data recovery | [Rescuezilla](https://rescuezilla.com/) · [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) · [R-Studio](https://www.r-studio.com/) (commercial) |
 | E-commerce/catalogs | [Odoo](https://www.odoo.com/) · [Shopify POS](https://www.shopify.com/pos) (commercial) · [Snipe-IT](https://snipeitapp.com/) (asset inventory) |
 | Photography and assets | [digiKam](https://www.digikam.org/) · [Eagle](https://eagle.cool/) (commercial) · [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) (commercial) |
 | Fonts and typography | [FontBase](https://fontba.se/) · [NexusFont](https://www.xiles.app/) · [MainType](https://www.high-logic.com/font-manager/maintype) (commercial) |
